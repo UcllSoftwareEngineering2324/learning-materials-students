@@ -7,7 +7,7 @@ So that I can rent it in the future
 ## Mock-up
 
 <a href="./mockups/addcar.jpg">
-    <img src="./mockups/addcar.jpg" width=250 height=250>
+    <img src="./mockups/addcar.jpg">
 </a>
 
 ## Acceptance Criteria
