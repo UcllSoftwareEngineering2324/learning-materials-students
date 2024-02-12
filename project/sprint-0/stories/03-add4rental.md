@@ -7,7 +7,7 @@ So that I can rent out it when I don't need it
 ## Mock-up
 
 <a href="./mockups/add4rental.jpg">
-    <img src="./mockups/add4rental.jpg">
+    <img src="./mockups/add4rental.jpg" width=250 height=250>
 </a>
 
 ## Acceptance Criteria
