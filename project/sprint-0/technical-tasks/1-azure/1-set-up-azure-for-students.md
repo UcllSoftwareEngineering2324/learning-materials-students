@@ -15,7 +15,7 @@ Your team has access to an Azure environment with student credit available.
 ## 2. Implementation Details
 
 1. Go to [Azure for Students](https://azure.microsoft.com/en-us/free/students)
-1. Log-in with your UCLL account
+1. Click on the `Start free` button and follow the wizard (use your UCLL-account)
 1. [Azure portal](https://portal.azure.com/) allows you to view your created resources and used credits
     * Normally the amount of credits should almost not decrease, since we will only use free or very cheap resources
 1. Create [a Resource Group](https://learn.microsoft.com/en-us/azure/role-based-access-control/quickstart-assign-role-user-portal) for all resources

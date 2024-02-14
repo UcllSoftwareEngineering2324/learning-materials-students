@@ -14,7 +14,7 @@ At the end of this task you should be able to code, build and run Java projects.
         OpenJDK Runtime Environment Corretto-17.0.1
         OpenJDK 64-Bit Server VM Corretto-17.0.1
         ```
-1. Make sure that your PATH and JAVA_HOME variables are correctly set, if this is not the case, [configure them manually](https://www.baeldung.com/java-home-on-windows-mac-os-x-linux)
+    * If you get wrong output then make sure that your PATH and JAVA_HOME variables are correctly set, if this is not the case, [configure them manually](https://www.baeldung.com/java-home-on-windows-mac-os-x-linux)
 1. Install [Apache Maven](https://maven.apache.org/install.html)
     * Running `mvn -v` should return output similar to:
     
