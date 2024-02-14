@@ -13,7 +13,7 @@ So that I can add rentals for a car
 ## Acceptance Criteria
 * **Given** a number of cars available\
 **When** the user wants to see the overview of all cars\
-**Then** for each car the brand, the model and the license plate are given
+**Then** for each car the brand, the model and the license plate are given\
 **And** the option to add a rental for this car is given
 * **Given** no cars available\
 **When** the user wants to see the overview of all cars\
