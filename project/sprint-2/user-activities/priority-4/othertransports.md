@@ -1,0 +1,3 @@
+# Other transports
+
+The Car4Rent application not only rents car, but also bicycles, e-bikes, busses, ...
