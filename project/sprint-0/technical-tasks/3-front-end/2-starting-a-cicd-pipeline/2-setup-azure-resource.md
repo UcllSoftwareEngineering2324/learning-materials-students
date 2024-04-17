@@ -29,6 +29,8 @@ Your GitHub repository should contain the building blocks to start building your
         * This plan should already exist
     * Pricing plan -> Free F1 (Shared infrastructure)
         * This should be preselected since this is taken from the already existing plan
+    * Take note of [these constraints](../../../../../reference/azure/app-service-plan.md) regarding App Service Plans and compute resources
+        * This will become more relevant as your project grows in scope
 
     <a href="./images/2-2-Azure-Web-App-Pricing-Details.png">
         <img src="./images/2-2-Azure-Web-App-Pricing-Details.png">
