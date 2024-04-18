@@ -9,7 +9,7 @@ This should change to the following:
 * The acceptance-environment schema is written manually using SQL
 * The production environment schema is written manually using SQL
 
-The schema of acceptance and production should be automatically updated on every build.
+The schema of acceptance and production should be automatically updated when a new version reaches these environments.
 
 Think of the following scenario:
 
@@ -18,4 +18,6 @@ Think of the following scenario:
 * When application version "B" is pushed to acceptance, that schema needs to be updated. The production environment should still be running on a schema for version "A".
 * When application version "B" is pushed to production, all environments should be using the new database schema.
 
-It is not a good idea to manually change the schemas every time a new version is released. Look at tools like "Flyway" (best in combination with Spring Boot, not with maven) to automate this on deploy.
+It is not a good idea to manually update the schemas every time a new version is released. 
+
+Look at tools like "Flyway" (best in combination with Spring Boot, not with maven) to automate this on startup of the application.
