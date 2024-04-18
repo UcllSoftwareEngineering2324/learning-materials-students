@@ -13,6 +13,6 @@ This should change to the following:
 
 The acceptance environment should be a new web app on Azure. Take note of [these constraints](../../../../reference/azure/app-service-plan.md) regarding App Service Plans and compute resources.
 
-The CI pipeline should publish the build artifact to the acceptance environment automatically after publishing to GitHub Packages.
+Ideally, the CI pipeline publishes the build artifact to the acceptance environment automatically after publishing to GitHub Packages. However, if there is no [automatic clean-up of old front-end deploys](./../priority-2/clean-up-front-end-deploy-packages.md), then this will not be feasible due to disk space constraints. In that case you can make the deploy to acceptance a separate manual deploy.
 
 The deploy pipeline should remain as is, with a manual deploy from GitHub Packages to production.
